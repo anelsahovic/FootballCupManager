@@ -1,0 +1,2 @@
+# FootballCupManager
+JavaFX project
