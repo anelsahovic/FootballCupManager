@@ -1,4 +1,4 @@
-package com.example.footballcupmanager;
+package footballcupmanager;
 
 
 import javafx.application.Application;
@@ -13,6 +13,7 @@ public class Main extends Application {
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("/FxmlFiles/HomeScreen.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
+        scene.getStylesheets().add(getClass().getResource("/CssFiles/main.css").toExternalForm());
         stage.setTitle("Football Cup Manager!");
         stage.setScene(scene);
         stage.show();

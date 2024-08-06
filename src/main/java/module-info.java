@@ -3,6 +3,7 @@ module com.example.footballcupmanager {
     requires javafx.fxml;
 
 
-    opens com.example.footballcupmanager to javafx.fxml;
-    exports com.example.footballcupmanager;
+
+    exports footballcupmanager;
+    opens footballcupmanager to javafx.fxml;
 }
