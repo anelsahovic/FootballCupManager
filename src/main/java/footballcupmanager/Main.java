@@ -1,4 +1,4 @@
-package com.example.footballcupmanager;
+package footballcupmanager;
 
 
 import javafx.application.Application;
