@@ -1,14 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="FxmlFiles.SemiFinals"
-            prefHeight="400.0" prefWidth="600.0">
 
+<AnchorPane prefHeight="434.0" prefWidth="743.0" styleClass="background" stylesheets="@../CssFiles/main.css" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FxmlFiles.SemiFinals">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="50.0" layoutX="188.0" layoutY="191.0" stroke="BLACK" strokeType="INSIDE" width="120.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="50.0" layoutX="432.0" layoutY="191.0" stroke="BLACK" strokeType="INSIDE" width="120.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="45.0" layoutX="45.0" layoutY="118.0" stroke="BLACK" strokeType="INSIDE" width="110.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="45.0" layoutX="45.0" layoutY="275.0" stroke="BLACK" strokeType="INSIDE" width="110.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="45.0" layoutX="591.0" layoutY="116.0" stroke="BLACK" strokeType="INSIDE" width="110.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="45.0" layoutX="591.0" layoutY="273.0" stroke="BLACK" strokeType="INSIDE" width="110.0" />
+      <Label alignment="CENTER" layoutX="45.0" layoutY="128.0" prefHeight="25.0" prefWidth="110.0" text="Label">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="45.0" layoutY="285.0" prefHeight="25.0" prefWidth="110.0" text="Label">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="591.0" layoutY="285.0" prefHeight="25.0" prefWidth="110.0" text="Label">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="591.0" layoutY="126.0" prefHeight="25.0" prefWidth="110.0" text="Label">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="188.0" layoutY="205.0" prefHeight="25.0" prefWidth="120.0" text="Label">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="432.0" layoutY="205.0" prefHeight="25.0" prefWidth="120.0" text="Label">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="310.0" layoutY="204.0" prefHeight="25.0" prefWidth="120.0" text="vs">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="205.0" layoutY="73.0" prefHeight="53.0" prefWidth="331.0" text="SEMI FINALS" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <Button layoutX="314.0" layoutY="277.0" mnemonicParsing="false" styleClass="play-btn" stylesheets="@../CssFiles/main.css" text="Play Matches" />
+      <Button disable="true" layoutX="319.0" layoutY="349.0" mnemonicParsing="false" styleClass="regular-btn" stylesheets="@../CssFiles/main.css" text="Go to Final" />
+   </children>
 </AnchorPane>
