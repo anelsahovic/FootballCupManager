@@ -6,12 +6,11 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane prefHeight="400.0" prefWidth="780.0" styleClass="background" stylesheets="@../CssFiles/main.css" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FxmlFiles.QuarterFinals">
+<AnchorPane prefHeight="400.0" prefWidth="780.0" styleClass="background" stylesheets="@../CssFiles/main.css" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="footballcupmanager.TournamentController">
    <children>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.0" layoutX="53.0" layoutY="74.0" stroke="BLACK" strokeType="INSIDE" width="115.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.0" layoutX="53.0" layoutY="120.0" stroke="BLACK" strokeType="INSIDE" width="115.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.0" layoutX="177.0" layoutY="97.0" stroke="BLACK" strokeType="INSIDE" width="115.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c1f7fc" height="35.0" layoutX="53.0" layoutY="74.0" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="INSIDE" strokeWidth="0.0" width="115.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c1f7fc" height="35.0" layoutX="53.0" layoutY="120.0" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="INSIDE" strokeWidth="0.0" width="115.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c1f7fc" height="35.0" layoutX="177.0" layoutY="97.0" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="INSIDE" strokeWidth="0.0" width="115.0" />
       <Label alignment="CENTER" layoutX="52.0" layoutY="82.0" prefHeight="17.0" prefWidth="115.0" text="Label">
          <font>
             <Font size="14.0" />
@@ -27,9 +26,9 @@
             <Font name="System Bold" size="14.0" />
          </font>
       </Label>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.0" layoutX="53.0" layoutY="246.0" stroke="BLACK" strokeType="INSIDE" width="115.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.0" layoutX="53.0" layoutY="292.0" stroke="BLACK" strokeType="INSIDE" width="115.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.0" layoutX="177.0" layoutY="269.0" stroke="BLACK" strokeType="INSIDE" width="115.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c1f7fc" height="35.0" layoutX="53.0" layoutY="246.0" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="INSIDE" strokeWidth="0.0" width="115.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c1f7fc" height="35.0" layoutX="53.0" layoutY="292.0" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="INSIDE" strokeWidth="0.0" width="115.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c1f7fc" height="35.0" layoutX="177.0" layoutY="269.0" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="INSIDE" strokeWidth="0.0" width="115.0" />
       <Label alignment="CENTER" layoutX="52.0" layoutY="254.0" prefHeight="17.0" prefWidth="115.0" text="Label">
          <font>
             <Font size="14.0" />
@@ -45,9 +44,9 @@
             <Font name="System Bold" size="14.0" />
          </font>
       </Label>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.0" layoutX="611.0" layoutY="74.0" stroke="BLACK" strokeType="INSIDE" width="115.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.0" layoutX="611.0" layoutY="120.0" stroke="BLACK" strokeType="INSIDE" width="115.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.0" layoutX="486.0" layoutY="97.0" stroke="BLACK" strokeType="INSIDE" width="115.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c1f7fc" height="35.0" layoutX="611.0" layoutY="74.0" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="INSIDE" strokeWidth="0.0" width="115.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c1f7fc" height="35.0" layoutX="611.0" layoutY="120.0" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="INSIDE" strokeWidth="0.0" width="115.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c1f7fc" height="35.0" layoutX="486.0" layoutY="97.0" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="INSIDE" strokeWidth="0.0" width="115.0" />
       <Label alignment="CENTER" layoutX="610.0" layoutY="82.0" prefHeight="17.0" prefWidth="115.0" text="Label">
          <font>
             <Font size="14.0" />
@@ -63,9 +62,9 @@
             <Font name="System Bold" size="14.0" />
          </font>
       </Label>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.0" layoutX="611.0" layoutY="246.0" stroke="BLACK" strokeType="INSIDE" width="115.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.0" layoutX="611.0" layoutY="292.0" stroke="BLACK" strokeType="INSIDE" width="115.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.0" layoutX="486.0" layoutY="269.0" stroke="BLACK" strokeType="INSIDE" width="115.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c1f7fc" height="35.0" layoutX="611.0" layoutY="246.0" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="INSIDE" strokeWidth="0.0" width="115.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c1f7fc" height="35.0" layoutX="611.0" layoutY="292.0" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="INSIDE" strokeWidth="0.0" width="115.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c1f7fc" height="35.0" layoutX="486.0" layoutY="269.0" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="INSIDE" strokeWidth="0.0" width="115.0" />
       <Label alignment="CENTER" layoutX="610.0" layoutY="254.0" prefHeight="17.0" prefWidth="115.0" text="Label">
          <font>
             <Font size="14.0" />

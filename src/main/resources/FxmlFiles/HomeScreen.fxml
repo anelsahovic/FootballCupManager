@@ -5,7 +5,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" styleClass="background" stylesheets="@../CssFiles/main.css" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" styleClass="background" stylesheets="@../CssFiles/main.css" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="footballcupmanager.MainController">
    <children>
       <Label fx:id="titleLabel" layoutX="65.0" layoutY="37.0" text="Football Cup Manager 2024" textFill="WHITE">
          <font>
@@ -13,13 +13,13 @@
          </font>
       </Label>
       <Label layoutX="14.0" layoutY="378.0" text="created by anelsahovic" />
-      <Button layoutX="126.0" layoutY="221.0" mnemonicParsing="false" prefWidth="100.0" styleClass="regular-btn" text="Teams">
+      <Button fx:id="teamsBtn" layoutX="126.0" layoutY="221.0" mnemonicParsing="false" onAction="#TeamsBtnClick" prefWidth="100.0" styleClass="regular-btn" text="Teams">
          <font>
             <Font name="System Bold" size="12.0" />
          </font>
       </Button>
-      <Button id="play-btn" layoutX="226.0" layoutY="134.0" mnemonicParsing="false" text="Play Tournament" textFill="WHITE" />
-      <Button layoutX="250.0" layoutY="221.0" mnemonicParsing="false" prefWidth="100.0" styleClass="regular-btn" text="Analytics" />
-      <Button layoutX="375.0" layoutY="221.0" mnemonicParsing="false" prefWidth="100.0" styleClass="regular-btn" text="Settings" />
+      <Button fx:id="playBtn" layoutX="226.0" layoutY="134.0" mnemonicParsing="false" onAction="#PlayTournamentBtnClick" styleClass="play-btn" stylesheets="@../CssFiles/main.css" text="Play Tournament" textFill="WHITE" />
+      <Button fx:id="analyticsBtn" layoutX="250.0" layoutY="221.0" mnemonicParsing="false" onAction="#AnalyticsBtnClick" prefWidth="100.0" styleClass="regular-btn" text="Analytics" />
+      <Button fx:id="settingsBtn" layoutX="375.0" layoutY="221.0" mnemonicParsing="false" onAction="#SettingsBtnClick" prefWidth="100.0" styleClass="regular-btn" text="Settings" />
    </children>
 </AnchorPane>

@@ -5,14 +5,13 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane prefHeight="400.0" prefWidth="600.0" styleClass="background" stylesheets="@../CssFiles/main.css" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FxmlFiles.Analytics">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" styleClass="background" stylesheets="@../CssFiles/main.css" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="footballcupmanager.AnalyticsController">
    <children>
       <Label layoutX="249.0" layoutY="14.0" text="Analytics" textFill="WHITE">
          <font>
             <Font name="System Bold" size="24.0" />
          </font>
       </Label>
-      <Button layoutX="14.0" layoutY="346.0" mnemonicParsing="false" styleClass="back-btn" stylesheets="@../CssFiles/main.css" text="Back" />
+      <Button layoutX="14.0" layoutY="346.0" mnemonicParsing="false" onAction="#AnalyticsBackBtnClick" styleClass="back-btn" stylesheets="@../CssFiles/main.css" text="Back" />
    </children>
 </AnchorPane>
