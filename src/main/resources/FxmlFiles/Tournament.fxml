@@ -3,6 +3,7 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.ChoiceBox?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
@@ -13,14 +14,21 @@
             <Font name="System Bold" size="36.0" />
          </font>
       </Label>
-      <Button layoutX="232.0" layoutY="263.0" mnemonicParsing="false" onAction="#StartTheTournament" styleClass="play-btn" stylesheets="@../CssFiles/main.css" text="Play Tournament" textFill="WHITE" />
-      <ChoiceBox fx:id="noOfTeams" layoutX="251.0" layoutY="197.0" maxHeight="20.0" prefHeight="20.0" prefWidth="100.0" styleClass="choicebox" stylesheets="@../CssFiles/main.css" />
+      <Button layoutX="232.0" layoutY="286.0" mnemonicParsing="false" onAction="#StartTheTournament" styleClass="play-btn" stylesheets="@../CssFiles/main.css" text="Play Tournament" textFill="WHITE" />
+      <ChoiceBox fx:id="noOfTeams" layoutX="250.0" layoutY="228.0" maxHeight="20.0" prefHeight="20.0" prefWidth="100.0" styleClass="choicebox" stylesheets="@../CssFiles/main.css" />
       <Label text="Label" />
-      <Label layoutX="200.0" layoutY="152.0" styleClass="titleLabel" stylesheets="@../CssFiles/main.css" text="Choose number of teams" textFill="WHITE">
+      <Label layoutX="200.0" layoutY="193.0" styleClass="titleLabel" stylesheets="@../CssFiles/main.css" text="Choose number of teams" textFill="WHITE">
          <font>
             <Font size="18.0" />
          </font>
       </Label>
       <Button layoutX="14.0" layoutY="346.0" mnemonicParsing="false" onAction="#TournamentBackBtnClick" prefHeight="0.0" prefWidth="72.0" styleClass="back-btn" stylesheets="@../CssFiles/main.css" text="Back" textFill="WHITE" />
+      <Label fx:id="numberOfTeams" layoutX="425.0" layoutY="118.0" text="0" visible="false" />
+      <TextField fx:id="nameOfTournamentTxtField" layoutX="226.0" layoutY="157.0" styleClass="text-field" stylesheets="@../CssFiles/main.css" />
+      <Label layoutX="178.0" layoutY="122.0" styleClass="titleLabel" stylesheets="@../CssFiles/main.css" text="Enter the name of Tournament" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>

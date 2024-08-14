@@ -22,4 +22,9 @@ public class Team {
     public String getTeamCountry() {
         return teamCountry;
     }
+
+    @Override
+    public String toString() {
+        return  teamName ;
+    }
 }

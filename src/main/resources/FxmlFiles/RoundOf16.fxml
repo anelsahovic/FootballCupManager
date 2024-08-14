@@ -13,17 +13,17 @@
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c1f7fc" height="28.0" layoutX="55.0" layoutY="68.0" stroke="WHITE" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="OUTSIDE" strokeWidth="0.0" width="92.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c1f7fc" height="28.0" layoutX="185.0" layoutY="54.0" stroke="WHITE" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="OUTSIDE" strokeWidth="0.0" width="92.0" />
       <Line endX="29.0" layoutX="156.0" layoutY="68.0" startX="-9.0" />
-      <Label alignment="CENTER" layoutX="54.0" layoutY="44.0" prefHeight="20.0" prefWidth="92.0" text="Label">
+      <Label fx:id="teamLabel1" alignment="CENTER" layoutX="54.0" layoutY="44.0" prefHeight="20.0" prefWidth="92.0" text="Label">
          <font>
             <Font size="14.0" />
          </font>
       </Label>
-      <Label alignment="CENTER" layoutX="55.0" layoutY="72.0" prefHeight="20.0" prefWidth="92.0" text="Label">
+      <Label fx:id="teamLabel2" alignment="CENTER" layoutX="55.0" layoutY="72.0" prefHeight="20.0" prefWidth="92.0" text="Label">
          <font>
             <Font size="14.0" />
          </font>
       </Label>
-      <Label alignment="CENTER" layoutX="185.0" layoutY="58.0" prefHeight="20.0" prefWidth="92.0" text="Label">
+      <Label fx:id="winnerLabel1" alignment="CENTER" layoutX="185.0" layoutY="58.0" prefHeight="20.0" prefWidth="92.0">
          <font>
             <Font name="System Bold" size="14.0" />
          </font>
@@ -32,17 +32,17 @@
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c1f7fc" height="28.0" layoutX="56.0" layoutY="159.0" stroke="WHITE" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="OUTSIDE" strokeWidth="0.0" width="92.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c1f7fc" height="28.0" layoutX="186.0" layoutY="145.0" stroke="WHITE" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="OUTSIDE" strokeWidth="0.0" width="92.0" />
       <Line endX="29.0" layoutX="157.0" layoutY="159.0" startX="-9.0" />
-      <Label alignment="CENTER" layoutX="55.0" layoutY="135.0" prefHeight="20.0" prefWidth="92.0" text="Label">
+      <Label fx:id="teamLabel3" alignment="CENTER" layoutX="55.0" layoutY="135.0" prefHeight="20.0" prefWidth="92.0" text="Label">
          <font>
             <Font size="14.0" />
          </font>
       </Label>
-      <Label alignment="CENTER" layoutX="56.0" layoutY="163.0" prefHeight="20.0" prefWidth="92.0" text="Label">
+      <Label fx:id="teamLabel4" alignment="CENTER" layoutX="56.0" layoutY="163.0" prefHeight="20.0" prefWidth="92.0" text="Label">
          <font>
             <Font size="14.0" />
          </font>
       </Label>
-      <Label alignment="CENTER" layoutX="186.0" layoutY="149.0" prefHeight="20.0" prefWidth="92.0" text="Label">
+      <Label fx:id="winnerLabel2" alignment="CENTER" layoutX="186.0" layoutY="149.0" prefHeight="20.0" prefWidth="92.0">
          <font>
             <Font name="System Bold" size="14.0" />
          </font>
@@ -51,17 +51,17 @@
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c1f7fc" height="28.0" layoutX="57.0" layoutY="251.0" stroke="WHITE" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="OUTSIDE" strokeWidth="0.0" width="92.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c1f7fc" height="28.0" layoutX="187.0" layoutY="237.0" stroke="WHITE" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="OUTSIDE" strokeWidth="0.0" width="92.0" />
       <Line endX="29.0" layoutX="158.0" layoutY="251.0" startX="-9.0" />
-      <Label alignment="CENTER" layoutX="56.0" layoutY="227.0" prefHeight="20.0" prefWidth="92.0" text="Label">
+      <Label fx:id="teamLabel5" alignment="CENTER" layoutX="56.0" layoutY="227.0" prefHeight="20.0" prefWidth="92.0" text="Label">
          <font>
             <Font size="14.0" />
          </font>
       </Label>
-      <Label alignment="CENTER" layoutX="57.0" layoutY="255.0" prefHeight="20.0" prefWidth="92.0" text="Label">
+      <Label fx:id="teamLabel6" alignment="CENTER" layoutX="57.0" layoutY="255.0" prefHeight="20.0" prefWidth="92.0" text="Label">
          <font>
             <Font size="14.0" />
          </font>
       </Label>
-      <Label alignment="CENTER" layoutX="187.0" layoutY="241.0" prefHeight="20.0" prefWidth="92.0" text="Label">
+      <Label fx:id="winnerLabel3" alignment="CENTER" layoutX="187.0" layoutY="241.0" prefHeight="20.0" prefWidth="92.0">
          <font>
             <Font name="System Bold" size="14.0" />
          </font>
@@ -70,37 +70,37 @@
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c1f7fc" height="28.0" layoutX="57.0" layoutY="343.0" stroke="WHITE" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="OUTSIDE" strokeWidth="0.0" width="92.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c1f7fc" height="28.0" layoutX="187.0" layoutY="329.0" stroke="WHITE" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="OUTSIDE" strokeWidth="0.0" width="92.0" />
       <Line endX="29.0" layoutX="158.0" layoutY="343.0" startX="-9.0" />
-      <Label alignment="CENTER" layoutX="56.0" layoutY="319.0" prefHeight="20.0" prefWidth="92.0" text="Label">
+      <Label fx:id="teamLabel7" alignment="CENTER" layoutX="56.0" layoutY="319.0" prefHeight="20.0" prefWidth="92.0" text="Label">
          <font>
             <Font size="14.0" />
          </font>
       </Label>
-      <Label alignment="CENTER" layoutX="57.0" layoutY="347.0" prefHeight="20.0" prefWidth="92.0" text="Label">
+      <Label fx:id="teamLabel8" alignment="CENTER" layoutX="57.0" layoutY="347.0" prefHeight="20.0" prefWidth="92.0" text="Label">
          <font>
             <Font size="14.0" />
          </font>
       </Label>
-      <Label alignment="CENTER" layoutX="187.0" layoutY="333.0" prefHeight="20.0" prefWidth="92.0" text="Label">
+      <Label fx:id="winnerLabel4" alignment="CENTER" layoutX="187.0" layoutY="333.0" prefHeight="20.0" prefWidth="92.0">
          <font>
             <Font name="System Bold" size="14.0" />
          </font>
       </Label>
-      <Label layoutX="210.0" layoutY="36.0" text="Winner!" textFill="WHITE">
+      <Label fx:id="winnerMessage1" layoutX="210.0" layoutY="36.0" text="Winner!" textFill="WHITE" visible="false">
          <font>
             <Font name="System Bold" size="12.0" />
          </font>
       </Label>
-      <Label layoutX="210.0" layoutY="127.0" text="Winner!" textFill="WHITE">
+      <Label fx:id="winnerMessage2" layoutX="210.0" layoutY="127.0" text="Winner!" textFill="WHITE" visible="false">
          <font>
             <Font name="System Bold" size="12.0" />
          </font>
       </Label>
-      <Label layoutX="210.0" layoutY="219.0" text="Winner!" textFill="WHITE">
+      <Label fx:id="winnerMessage3" layoutX="210.0" layoutY="219.0" text="Winner!" textFill="WHITE" visible="false">
          <font>
             <Font name="System Bold" size="12.0" />
          </font>
       </Label>
-      <Label layoutX="210.0" layoutY="310.0" text="Winner!" textFill="WHITE">
+      <Label fx:id="winnerMessage4" layoutX="210.0" layoutY="310.0" text="Winner!" textFill="WHITE" visible="false">
          <font>
             <Font name="System Bold" size="12.0" />
          </font>
@@ -109,22 +109,22 @@
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c1f7fc" height="28.0" layoutX="674.0" layoutY="70.0" stroke="WHITE" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="OUTSIDE" strokeWidth="0.0" width="92.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c1f7fc" height="28.0" layoutX="544.0" layoutY="56.0" stroke="WHITE" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="OUTSIDE" strokeWidth="0.0" width="92.0" />
       <Line endX="29.0" layoutX="645.0" layoutY="70.0" startX="-9.0" />
-      <Label alignment="CENTER" layoutX="673.0" layoutY="46.0" prefHeight="20.0" prefWidth="92.0" text="Label">
+      <Label fx:id="teamLabel9" alignment="CENTER" layoutX="673.0" layoutY="46.0" prefHeight="20.0" prefWidth="92.0" text="Label">
          <font>
             <Font size="14.0" />
          </font>
       </Label>
-      <Label alignment="CENTER" layoutX="674.0" layoutY="74.0" prefHeight="20.0" prefWidth="92.0" text="Label">
+      <Label fx:id="teamLabel10" alignment="CENTER" layoutX="674.0" layoutY="74.0" prefHeight="20.0" prefWidth="92.0" text="Label">
          <font>
             <Font size="14.0" />
          </font>
       </Label>
-      <Label alignment="CENTER" layoutX="544.0" layoutY="60.0" prefHeight="20.0" prefWidth="92.0" text="Label">
+      <Label fx:id="winnerLabel5" alignment="CENTER" layoutX="544.0" layoutY="60.0" prefHeight="20.0" prefWidth="92.0">
          <font>
             <Font name="System Bold" size="14.0" />
          </font>
       </Label>
-      <Label layoutX="567.0" layoutY="38.0" text="Winner!" textFill="WHITE">
+      <Label fx:id="winnerMessage5" layoutX="567.0" layoutY="38.0" text="Winner!" textFill="WHITE" visible="false">
          <font>
             <Font name="System Bold" size="12.0" />
          </font>
@@ -133,22 +133,22 @@
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c1f7fc" height="28.0" layoutX="674.0" layoutY="161.0" stroke="WHITE" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="OUTSIDE" strokeWidth="0.0" width="92.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c1f7fc" height="28.0" layoutX="544.0" layoutY="147.0" stroke="WHITE" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="OUTSIDE" strokeWidth="0.0" width="92.0" />
       <Line endX="29.0" layoutX="645.0" layoutY="161.0" startX="-9.0" />
-      <Label alignment="CENTER" layoutX="673.0" layoutY="137.0" prefHeight="20.0" prefWidth="92.0" text="Label">
+      <Label fx:id="teamLabel11" alignment="CENTER" layoutX="673.0" layoutY="137.0" prefHeight="20.0" prefWidth="92.0" text="Label">
          <font>
             <Font size="14.0" />
          </font>
       </Label>
-      <Label alignment="CENTER" layoutX="674.0" layoutY="165.0" prefHeight="20.0" prefWidth="92.0" text="Label">
+      <Label fx:id="teamLabel12" alignment="CENTER" layoutX="674.0" layoutY="165.0" prefHeight="20.0" prefWidth="92.0" text="Label">
          <font>
             <Font size="14.0" />
          </font>
       </Label>
-      <Label alignment="CENTER" layoutX="544.0" layoutY="151.0" prefHeight="20.0" prefWidth="92.0" text="Label">
+      <Label fx:id="winnerLabel6" alignment="CENTER" layoutX="544.0" layoutY="151.0" prefHeight="20.0" prefWidth="92.0">
          <font>
             <Font name="System Bold" size="14.0" />
          </font>
       </Label>
-      <Label layoutX="567.0" layoutY="129.0" text="Winner!" textFill="WHITE">
+      <Label fx:id="winnerMessage6" layoutX="567.0" layoutY="129.0" text="Winner!" textFill="WHITE" visible="false">
          <font>
             <Font name="System Bold" size="12.0" />
          </font>
@@ -157,22 +157,22 @@
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c1f7fc" height="28.0" layoutX="674.0" layoutY="253.0" stroke="WHITE" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="OUTSIDE" strokeWidth="0.0" width="92.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c1f7fc" height="28.0" layoutX="544.0" layoutY="239.0" stroke="WHITE" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="OUTSIDE" strokeWidth="0.0" width="92.0" />
       <Line endX="29.0" layoutX="645.0" layoutY="253.0" startX="-9.0" />
-      <Label alignment="CENTER" layoutX="673.0" layoutY="229.0" prefHeight="20.0" prefWidth="92.0" text="Label">
+      <Label fx:id="teamLabel13" alignment="CENTER" layoutX="673.0" layoutY="229.0" prefHeight="20.0" prefWidth="92.0" text="Label">
          <font>
             <Font size="14.0" />
          </font>
       </Label>
-      <Label alignment="CENTER" layoutX="674.0" layoutY="257.0" prefHeight="20.0" prefWidth="92.0" text="Label">
+      <Label fx:id="teamLabel14" alignment="CENTER" layoutX="674.0" layoutY="257.0" prefHeight="20.0" prefWidth="92.0" text="Label">
          <font>
             <Font size="14.0" />
          </font>
       </Label>
-      <Label alignment="CENTER" layoutX="544.0" layoutY="243.0" prefHeight="20.0" prefWidth="92.0" text="Label">
+      <Label fx:id="winnerLabel7" alignment="CENTER" layoutX="544.0" layoutY="243.0" prefHeight="20.0" prefWidth="92.0">
          <font>
             <Font name="System Bold" size="14.0" />
          </font>
       </Label>
-      <Label layoutX="567.0" layoutY="221.0" text="Winner!" textFill="WHITE">
+      <Label fx:id="winnerMessage7" layoutX="567.0" layoutY="221.0" text="Winner!" textFill="WHITE" visible="false">
          <font>
             <Font name="System Bold" size="12.0" />
          </font>
@@ -181,32 +181,33 @@
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c1f7fc" height="28.0" layoutX="674.0" layoutY="345.0" stroke="WHITE" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="OUTSIDE" strokeWidth="0.0" width="92.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c1f7fc" height="28.0" layoutX="544.0" layoutY="331.0" stroke="WHITE" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="OUTSIDE" strokeWidth="0.0" width="92.0" />
       <Line endX="29.0" layoutX="645.0" layoutY="345.0" startX="-9.0" />
-      <Label alignment="CENTER" layoutX="673.0" layoutY="321.0" prefHeight="20.0" prefWidth="92.0" text="Label">
+      <Label fx:id="teamLabel15" alignment="CENTER" layoutX="673.0" layoutY="321.0" prefHeight="20.0" prefWidth="92.0" text="Label">
          <font>
             <Font size="14.0" />
          </font>
       </Label>
-      <Label alignment="CENTER" layoutX="674.0" layoutY="349.0" prefHeight="20.0" prefWidth="92.0" text="Label">
+      <Label fx:id="teamLabel16" alignment="CENTER" layoutX="674.0" layoutY="349.0" prefHeight="20.0" prefWidth="92.0" text="Label">
          <font>
             <Font size="14.0" />
          </font>
       </Label>
-      <Label alignment="CENTER" layoutX="544.0" layoutY="335.0" prefHeight="20.0" prefWidth="92.0" text="Label">
+      <Label fx:id="winnerLabel8" alignment="CENTER" layoutX="544.0" layoutY="335.0" prefHeight="20.0" prefWidth="92.0">
          <font>
             <Font name="System Bold" size="14.0" />
          </font>
       </Label>
-      <Label layoutX="567.0" layoutY="313.0" text="Winner!" textFill="WHITE">
+      <Label fx:id="winnerMessage8" layoutX="567.0" layoutY="313.0" text="Winner!" textFill="WHITE" visible="false">
          <font>
             <Font name="System Bold" size="12.0" />
          </font>
       </Label>
-      <Button layoutX="354.0" layoutY="179.0" mnemonicParsing="false" styleClass="play-btn" stylesheets="@../CssFiles/main.css" text="Play Matches" />
-      <Button disable="true" layoutX="356.0" layoutY="246.0" mnemonicParsing="false" styleClass="regular-btn" stylesheets="@../CssFiles/main.css" text="Next Round" />
+      <Button fx:id="playMatchBtn" layoutX="354.0" layoutY="179.0" mnemonicParsing="false" onAction="#play16Matches" styleClass="play-btn" stylesheets="@../CssFiles/main.css" text="Play Matches" />
+      <Button fx:id="goToQuarterBtn" disable="true" layoutX="356.0" layoutY="246.0" mnemonicParsing="false" onAction="#goToQuarterFinals" styleClass="regular-btn" stylesheets="@../CssFiles/main.css" text="Next Round" />
       <Label layoutX="341.0" layoutY="124.0" styleClass="titleLabel" stylesheets="@../CssFiles/main.css" text="Round of 16">
          <font>
             <Font name="System Bold" size="24.0" />
          </font>
       </Label>
+      <Label fx:id="numberOfTeams" layoutX="390.0" layoutY="28.0" text="16" visible="false" />
    </children>
 </AnchorPane>
