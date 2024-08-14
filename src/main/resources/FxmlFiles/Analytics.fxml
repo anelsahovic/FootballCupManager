@@ -2,6 +2,9 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
@@ -13,5 +16,23 @@
          </font>
       </Label>
       <Button layoutX="14.0" layoutY="346.0" mnemonicParsing="false" onAction="#AnalyticsBackBtnClick" styleClass="back-btn" stylesheets="@../CssFiles/main.css" text="Back" />
+      <TableView fx:id="pmTable" layoutX="26.0" layoutY="67.0" prefHeight="241.0" prefWidth="314.0">
+        <columns>
+          <TableColumn fx:id="pmId" prefWidth="35.0" text="ID" />
+          <TableColumn fx:id="pmHomeTeam" prefWidth="94.0" text="Home Team" />
+            <TableColumn fx:id="pmAwayTeam" prefWidth="95.0" text="Away Team" />
+            <TableColumn fx:id="pmWinner" prefWidth="89.0" text="Winner" />
+        </columns>
+      </TableView>
+      <TableView fx:id="tourTable" layoutX="366.0" layoutY="67.0" prefHeight="299.0" prefWidth="220.0">
+         <columns>
+            <TableColumn fx:id="tourId" prefWidth="51.0" text="ID" />
+            <TableColumn fx:id="tourName" prefWidth="99.0" text="Name" />
+            <TableColumn fx:id="tourNoTeams" prefWidth="75.0" text="No.Teams" />
+         </columns>
+      </TableView>
+      <Button layoutX="206.0" layoutY="331.0" mnemonicParsing="false" onAction="#showPlayedMatches" prefHeight="35.0" prefWidth="130.0" styleClass="update-btn" stylesheets="@../CssFiles/main.css" text="Show Matches " />
+      <TextField fx:id="tourIdTxtField" layoutX="162.0" layoutY="331.0" prefHeight="35.0" prefWidth="44.0" promptText="ID" />
+      <Label layoutX="162.0" layoutY="314.0" text="Enter the ID of the tournament" textFill="WHITE" />
    </children>
 </AnchorPane>
